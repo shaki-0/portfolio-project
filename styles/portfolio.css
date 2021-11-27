@@ -2,6 +2,16 @@
 body {
   background-color: #5b8bd3;
   margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.nav-color {
+  background: #facdf8;
+}
+
+.nav-text-color {
+  color: #808080;
+  font-family: "Fire Code", monospace;
 }
 
 h1,
