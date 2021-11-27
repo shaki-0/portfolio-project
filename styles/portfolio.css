@@ -5,15 +5,25 @@ body {
   margin-bottom: 100px;
 }
 
+.navbar-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
 .nav-color {
   background: #facdf8;
 }
 
-.nav-text-color {
+.nav-text {
   color: #808080;
   font-family: "Fire Code", monospace;
+  text-decoration: none;
+  font-size: 16px;
 }
 
+.nav-text:hover {
+  color: #5b8bd3;
+}
 
 h1,
 h2 {
@@ -49,6 +59,21 @@ button {
 @media (max-width: 576px) {
   h2 {
     font-size: 18px;
+  }
+
+  .nav-text {
+    font-size: 12px;
+  }
+
+  body {
+    margin-top: 200px;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar li {
+    margin-left: 1em;
+    margin-right: 1em;
   }
 }
 
