@@ -1,6 +1,6 @@
 /* font-family: 'Fira Code', monospace; */
 body {
-  background-color: #5b8bd2;
+  background-color: #5b8bd3;
   margin-top: 100px;
 }
 
@@ -35,3 +35,8 @@ button {
   box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.2);
 }
 
+@media (max-width: 576px) {
+  h2 {
+    font-size: 18px;
+  }
+}
