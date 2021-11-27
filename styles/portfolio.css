@@ -50,3 +50,8 @@ button {
     font-size: 18px;
   }
 }
+
+a:hover img {
+  opacity: 0.4;
+  filter: grayscale(20%);
+}
