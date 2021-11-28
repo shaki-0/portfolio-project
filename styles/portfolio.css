@@ -1,33 +1,39 @@
+:root {
+  --primary-color: #5b8bd3;
+  --secondary-color: #facdf8;
+  --tertiary-color: #000000;
+  --font-color: #c0c0c0;
+}
+
 body {
-  background-color: #5b8bd3;
+  background-color: var(--primary-color);
+  font-family: "Fire Code", monospace;
   margin-top: 100px;
   margin-bottom: 100px;
 }
 
-.navbar-nav {
-  display: flex;
-  justify-content: space-between;
-}
-
 .nav-color {
-  background: #facdf8;
+  background: var(--secondary-color);
 }
 
 .nav-text {
   color: #808080;
-  font-family: "Fire Code", monospace;
   text-decoration: none;
   font-size: 16px;
 }
 
 .nav-text:hover {
-  color: #5b8bd3;
+  color: var(--primary-color);
+}
+
+.navbar li {
+  margin-left: 1em;
+  margin-right: 1em;
 }
 
 h1,
 h2 {
-  font-family: "Fire Code", monospace;
-  color: #c0c0c0;
+  color: var(--font-color);
   text-align: center;
 }
 
@@ -42,16 +48,20 @@ h2 {
   text-shadow: 1px 2px rgba(0, 0, 0, 0.4);
 }
 
-button {
-  background: #f8c1ef;
-  color: #000000;
-  font-family: "Fire Code", monospace;
+.enter-button {
+  display: flex;
+  justify-content: center;
+}
+
+.about-link {
+  background: var(--secondary-color);
+  color: var(--tertiary-color);
+  text-align: center;
   font-weight: bold;
+  text-decoration: none;
   font-size: 14px;
-  padding: 8px 40px;
-  display: block;
-  margin: 20px auto;
-  border: 1px solid #000000;
+  padding: 10px 45px;
+  border: 1px solid var(--tertiary-color);
   box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.2);
 }
 
@@ -66,13 +76,6 @@ button {
 
   body {
     margin-top: 200px;
-  }
-}
-
-@media (min-width: 992px) {
-  .navbar li {
-    margin-left: 1em;
-    margin-right: 1em;
   }
 }
 
