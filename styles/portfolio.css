@@ -89,5 +89,10 @@ a:hover img {
 
 /* About page */
 
-h3 {
+.page-border {
+  background-image: url(/images/border.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 300px;
 }
