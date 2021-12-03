@@ -36,14 +36,12 @@ body {
   margin-right: 1em;
 }
 
-h1,
-h2 {
+h1 {
   color: var(--font-color);
   font-weight: bold;
-  font-size: 36px;
 }
 
-h3 {
+h2, h3 {
   color: var(--font-color);
   font-weight: 100;
   font-size: 26px;
