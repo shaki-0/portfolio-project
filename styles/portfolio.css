@@ -5,6 +5,10 @@
   --font-color: #c0c0c0;
 }
 
+html {
+  cursor: url(/images/cursor.png), auto;
+}
+
 body {
   background-color: var(--primary-color);
   font-family: "Fire Code", monospace;
@@ -63,6 +67,7 @@ h3 {
 
 a:hover {
   color: var(--primary-color);
+  cursor: url(/images/90spointer.png), pointer;
 }
 
 a:hover img {
@@ -132,6 +137,6 @@ div .skills-list {
   }
 
   .email-link {
-    font-size: 16px; 
+    font-size: 16px;
   }
 }
